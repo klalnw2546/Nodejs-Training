@@ -1,5 +1,11 @@
 // print box number pattern of 1 with 0 center
 
+// 10101
+// 01010
+// 10101
+// 01010
+// 10101
+
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: '); 
 rows = +rows; // Convert string to number

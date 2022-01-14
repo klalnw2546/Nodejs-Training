@@ -1,5 +1,11 @@
 // print number pattern with 1, 0 at alternate columns
 
+// 01010
+// 01010
+// 01010
+// 01010
+// 01010
+
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: ');
 let colums = readline('Enter colums: ');

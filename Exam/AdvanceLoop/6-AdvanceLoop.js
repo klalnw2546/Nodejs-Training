@@ -1,5 +1,11 @@
 // print chessboard number pattern with 1 and 0
 
+// 10101
+// 01010
+// 10101
+// 01010
+// 10101
+
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: '); 
 rows = +rows; // Convert string to number

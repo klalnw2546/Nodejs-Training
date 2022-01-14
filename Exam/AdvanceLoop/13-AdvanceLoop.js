@@ -1,10 +1,8 @@
-// print box number pattern with plus in center
-
-// 11011
-// 11011
-// 00000
-// 11011
-// 11011
+// 1  2  3  4  5
+// 6  7  8  9 10
+// 11 12 13 14 15
+// 16 17 18 19 20
+// 21 22 23 24 25
 
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: '); 
@@ -13,14 +11,16 @@ let colums = readline('Enter colums: ');
 colums = +colums;
 let NumberInRows = 1; // จำนวนตัว ใน 1 แถว
 let NumberInColums = 1; // จำนวนตัว ใน 1 คอลัมป์
+let ShowNumber = 1 ;
 
 while(NumberInColums <= rows) {
-    Math.ceil(colums / 2) === NumberInRows || Math.ceil(rows / 2) === NumberInColums ? print('0') : print('1');
+    print(`${ShowNumber} `);
     if(NumberInRows === colums) {
         print('\n');
         NumberInRows = 0;
         NumberInColums++;
     }
+    ShowNumber++;
     NumberInRows++;
 }
 
@@ -28,5 +28,5 @@ while(NumberInColums <= rows) {
 
 
 function print(name) {
-    process.stdout.write(name);
+    process.stdout.write(`${name}`);
 }

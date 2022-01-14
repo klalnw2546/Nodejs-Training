@@ -1,5 +1,11 @@
 // print 0 or 1 square number pattern รูปแบบที่ 2
 
+// 11111
+// 00000
+// 11111
+// 00000
+// 11111
+
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: '); 
 rows = +rows; // Convert string to number

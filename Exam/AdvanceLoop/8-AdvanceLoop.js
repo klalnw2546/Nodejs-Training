@@ -1,4 +1,9 @@
-// print 0 or 1 square number pattern รูปแบบที่ 2
+// 10001
+// 01010
+// 00100
+// 01010
+// 10001
+
 
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: '); 

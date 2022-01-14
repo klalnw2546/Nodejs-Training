@@ -14,3 +14,4 @@ function ChangeNum(j) {
 ChangeNum(2);
 print(num);
 print('kla');
+print("kla"+num+"mok");

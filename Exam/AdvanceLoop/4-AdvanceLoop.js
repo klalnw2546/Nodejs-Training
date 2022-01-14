@@ -1,5 +1,11 @@
 // print box number pattern with 1 and 0
 
+// 11111
+// 10001
+// 10001
+// 10001
+// 11111
+
 const readline = require('prompt-sync')();
 let rows = readline('Enter rows: ');
 let colums = readline('Enter colums: ');
