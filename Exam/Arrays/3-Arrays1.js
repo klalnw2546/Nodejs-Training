@@ -4,7 +4,6 @@ const readline = require('prompt-sync')();
 let size = readline('Input size: ');
 size = Number(size);
 let element = [];
-let temp;
 let sum = 0;
 
 getElement(size);
